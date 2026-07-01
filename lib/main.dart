@@ -21,7 +21,7 @@ class MountainIntelligenceApp extends StatelessWidget {
         brightness: Brightness.dark,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal, brightness: Brightness.dark),
         scaffoldBackgroundColor: const Color(0xFF101820),
-        cardTheme: const CardTheme(
+        cardTheme: const CardThemeData(
           color: Color(0xFF1E2730),
           margin: EdgeInsets.symmetric(vertical: 8),
         ),
